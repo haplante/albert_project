@@ -1,0 +1,26 @@
+project_root/
+└── data/
+    ├── sub-XXX/    
+    │   ├── anat/
+    │   │   └── sub-XXX_T1w.nii.gz
+    │   └── dwi/
+    │       └── sub-XXX_dwi.nii.gz
+    │
+    └── derivatives/
+        ├── t1_map/
+        │   └── sub-XXX/
+        │       └── sub-XXX_t1_map.nii.gz
+        ├── fa_map/
+        │   └── sub-XXX/
+        │       └── sub-XXX_scanner_FA.nii.gz 
+        ├── optic_nerve_segmentations/
+        │   └── sub-XXX/
+        │       ├── anat/
+        │       │   └── sub-XXX_label-ON_seg.nii.gz
+        │       └── dwi/
+        │           └── sub-XXX_label-ON_seg.nii.gz
+        │  
+        └── templates/
+            ├── MNI152_T1_1mm.nii.gz
+            ├── Atlas_MNI.nii.gz
+            └── Optic_Nerve_Label_MNI.gz
